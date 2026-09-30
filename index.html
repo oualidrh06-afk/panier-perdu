@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Panier Perdu — Récupérez vos paniers abandonnés</title>
+<meta name="description" content="Vos clients remplissent leur panier puis partent. Panier Perdu les relance par email, automatiquement. 49 €/mois, relances illimitées.">
+<meta property="og:title" content="Panier Perdu — Récupérez vos paniers abandonnés">
+<meta property="og:description" content="Deux relances par email, un code de réduction facultatif, et le compteur des euros récupérés. 49 €/mois.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F4EFE6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--encre:#1B1F23;--brique:#C8420A;--creme:#F4EFE6;--gris:#5C6167;--trait:#DDD5C7}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--creme);color:var(--encre);font:17px/1.55 system-ui,-apple-system,sans-serif;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+main,footer,header{max-width:640px;margin:0 auto;padding:0 20px}
+header{padding-top:calc(18px + env(safe-area-inset-top,0px));font:900 20px Fraunces,Georgia,serif}
+h1,h2{font-family:Fraunces,Georgia,serif;line-height:1.1;margin:0 0 14px}
+h1{font-size:38px;font-weight:900;margin-top:28px}
+h2{font-size:26px;font-weight:700}
+.eyebrow{color:var(--brique);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin-top:32px}
+.btn{display:block;background:var(--brique);color:#fff;text-decoration:none;text-align:center;font-weight:700;font-size:18px;padding:18px 20px;border-radius:10px}
+.note{color:var(--gris);font-size:14px;margin:10px 0 0}
+section{padding:36px 0;border-top:1px solid var(--trait)}
+.chiffre{font:900 64px Fraunces,Georgia,serif;color:var(--brique);line-height:1}
+ol{padding:0;margin:0;list-style:none;counter-reset:n}
+li{counter-increment:n;padding:0 0 18px 44px;position:relative}
+li::before{content:counter(n);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--encre);color:var(--creme);font-weight:700;text-align:center;line-height:30px}
+li b{display:block}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--creme);border-top:1px solid var(--trait);padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px))}
+.bar .btn{max-width:600px;margin:0 auto}
+.legal h2{font-size:22px;margin-top:28px}
+.legal p{font-size:15px;color:var(--gris);margin:0 0 10px}
+footer{padding:20px 20px 30px;font-size:14px}
+footer a{color:var(--gris);margin-right:14px}
+</style>
+</head>
+<body>
+<header>Panier Perdu</header>
+<main>
+<p class="eyebrow">Pour les boutiques Shopify</p>
+<h1>Vos clients remplissent leur panier, puis partent. Récupérez cet argent.</h1>
+<p>Panier Perdu relance chaque panier abandonné par email, sans que vous y touchiez.</p>
+<a class="btn" href="https://buy.stripe.com/test_dRm6oHe2vgGZ1857NK5wI01">Réserver ma place — 49 € / mois</a>
+<p class="note">Pré-vente : accès livré sous 3 semaines. Remboursé intégralement sur simple demande.</p>
+
+<section>
+<div class="chiffre">7 sur 10</div>
+<p>Environ 7 paniers sur 10 sont abandonnés avant le paiement (source : Baymard Institute). Les gros outils de relance sont conçus pour les grosses boutiques, alors la plupart des petites ne relancent rien du tout.</p>
+</section>
+
+<section>
+<h2>Trois choses, et c'est tout</h2>
+<ol>
+<li><b>Deux relances écrites</b>Un premier email, puis un second quelques jours après, personnalisés avec le contenu du panier.</li>
+<li><b>Un code de réduction, si vous voulez</b>Ajoutez-le uniquement sur la seconde relance, pour décider les hésitants.</li>
+<li><b>Le compteur en euros</b>Vous voyez, en euros, ce que Panier Perdu vous a fait récupérer.</li>
+</ol>
+</section>
+
+<section>
+<h2>49 € par mois, par boutique</h2>
+<p>Relances illimitées. Sans engagement : vous arrêtez quand vous voulez.</p>
+<a class="btn" href="https://buy.stripe.com/test_dRm6oHe2vgGZ1857NK5wI01">Réserver ma place</a>
+<p class="note">Paiement sécurisé par Stripe.</p>
+</section>
+
+<section class="legal" id="infos">
+<h2 id="mentions">Mentions légales</h2>
+<p>Éditeur : [PRÉNOM NOM], micro-entrepreneur. SIRET : [À COMPLÉTER]. Adresse : [À COMPLÉTER]. Contact : [EMAIL À COMPLÉTER]. Directeur de la publication : [PRÉNOM NOM].</p>
+<p>Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
+
+<h2 id="cgv">Conditions générales de vente</h2>
+<p><b>Objet.</b> Panier Perdu est un service en ligne de relance des paniers abandonnés pour boutiques Shopify, vendu par abonnement mensuel de 49 € par boutique. [TVA : à compléter, par exemple « TVA non applicable, art. 293 B du CGI »].</p>
+<p><b>Pré-vente.</b> Le service est en cours de développement. L'accès est livré au plus tard 21 jours après le paiement. Sans accès à cette date, le client est remboursé intégralement.</p>
+<p><b>Durée et résiliation.</b> L'abonnement est mensuel, résiliable à tout moment par simple email à [EMAIL À COMPLÉTER], avec effet à la fin de la période en cours.</p>
+<p><b>Remboursement.</b> Pendant la pré-vente, tout client peut demander le remboursement intégral sur simple demande par email.</p>
+<p><b>Paiement.</b> Le paiement est effectué par carte via Stripe, prestataire de paiement sécurisé.</p>
+<p><b>Litiges.</b> Droit français. Médiateur de la consommation : [À COMPLÉTER].</p>
+
+<h2 id="confidentialite">Politique de confidentialité</h2>
+<p>Données collectées : nom, adresse email et informations de paiement, uniquement pour fournir le service et gérer votre abonnement. Les données de paiement sont traitées par Stripe et ne sont jamais stockées sur ce site.</p>
+<p>Elles ne sont ni vendues ni cédées. Vous pouvez demander l'accès, la rectification ou la suppression de vos données à [EMAIL À COMPLÉTER].</p>
+</section>
+</main>
+<footer>
+<a href="#mentions">Mentions légales</a><a href="#cgv">CGV</a><a href="#confidentialite">Confidentialité</a>
+</footer>
+<div class="bar"><a class="btn" href="https://buy.stripe.com/test_dRm6oHe2vgGZ1857NK5wI01">Réserver ma place — 49 € / mois</a></div>
+</body>
+</html>
